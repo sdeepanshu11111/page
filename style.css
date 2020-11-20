@@ -7,7 +7,7 @@
 
 main {
     font-family: 'Lobster', sans-serif;
-    color: white;
+    color: rgba(41, 177, 227, 1);
 }
 
 .landing {
@@ -110,8 +110,8 @@ nav {
         position: absolute;
         top: 15%;
         left: 50%;
-        transform: translate(-50%, 20%);
+        transform: translate(-50%, 30%);
         font-size: 4.5rem;
-        color: wheat
+        color: rgba(41, 177, 227, 0.9);
     }
 }
