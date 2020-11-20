@@ -98,4 +98,20 @@ nav {
     .landing {
         padding: 0 2rem;
     }
+    #logo {
+        font-size: 23px;
+        padding-right: 10px;
+    }
+    .intro-text {
+        font-size: 1.7rem;
+        padding: 0.5rem;
+    }
+    .big-text {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, 20%);
+        font-size: 4.5rem;
+        color: wheat
+    }
 }
