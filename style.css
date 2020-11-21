@@ -7,17 +7,29 @@
 
 main {
     font-family: 'Lobster', sans-serif;
-    color: rgba(41, 177, 227, 1);
+    color: white;
+    position: relative;
 }
 
 .landing {
     height: 100vh;
-    background-image: url(hero.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: #7FDBFF;
     padding: 0 5rem;
+    background: url(/pexels-engin-akyurt-1463924.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+/* main::before {
+    content: "";
+    background-color: aqua;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
 
 nav {
     display: flex;
@@ -25,6 +37,7 @@ nav {
     min-height: 10vh;
     align-items: center;
     width: 100%;
+    color: rgba(93, 352, 265, 1.9)
 }
 
 .nav-links {
@@ -50,7 +63,7 @@ nav {
     left: 50%;
     transform: translate(-50%, 30%);
     font-size: 5rem;
-    color: rgba(6, 6, 6, 0.9);
+    color: rgba(41, 177, 227, 0.9)
 }
 
 .intro {
@@ -67,7 +80,7 @@ nav {
 }
 
 .slider {
-    background: rgb(163, 193, 207);
+    background: linear-gradient(360deg, rgba(2, 0, 36, 1) 25%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
     position: fixed;
     top: 0;
     left: 0;
